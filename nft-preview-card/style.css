@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    padding: 3rem 1rem;
+    margin: 0;
+}
+
+.card{
+    width: 90vw;
+    height: 100vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 7px;
+    font-family: Outfit;
+    color:  hsl(0, 0%, 100%);
+    padding: 1rem;
+}
+
+.card__image {
+    max-width: 100%;
+    border-radius: 6px;
+    /* margin: 5% 5% 2.5% 5%; */
+}
+
+.card__body{
+    font-size: 18px;
+}
+
+.card__title{
+   font-weight: 600;
+   font-size: 1.5rem;
+}
+
+.card__description,
+.author{
+    font-weight: 100;
+    line-height: 1.5;
+    color: hsl(0, 0%, 70%);
+}
+.author{
+    margin-right: 0.3rem;
+}
+
+.card__info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: space-between;
+}
+.card__info-price{
+    display: flex;
+    align-content: center;
+    color:  hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.card__info img{
+    margin-right: 0.5rem;
+}
+
+.card__info-duration{
+    display: flex;
+    align-content: center;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+}
+
+.card__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar{
+    height: 50%;
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+    margin-right: 1.1rem;
+}
+
+.avatar img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.attribution{
+    line-break: loose;
+}
+
+@media(min-width:376px){
+    .card{
+
+    }
+}
