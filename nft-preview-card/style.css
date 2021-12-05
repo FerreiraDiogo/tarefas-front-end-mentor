@@ -10,6 +10,9 @@ body{
     padding: 3rem 1.5rem;
     margin: 0;
 }
+a:hover{
+    cursor: pointer;
+}
 
 .card{
     width: 86vw;
@@ -20,9 +23,6 @@ body{
     color:  hsl(0, 0%, 100%);
     padding: 1rem;
 }
-
-
-
 
 .card__image {
     max-width: 100%;
@@ -39,6 +39,12 @@ body{
    font-size: 1.5rem;
 }
 
+.card__title:hover,
+#author-name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
 .card__description,
 .author{
     font-weight: 100;
@@ -48,6 +54,8 @@ body{
 .author{
     margin-right: 0.3rem;
 }
+
+
 
 .card__info{
     display: flex;
